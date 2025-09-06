@@ -1,6 +1,5 @@
 com\pages\DashboardPage.class
 com\pages\LoginPage.class
 commonMethods\BaseClass.class
-com\OrangeHRM\Utiliites\Utilities.class
 runner\TC01_LoginPage.class
 com\OrangeHRM\Utiliites\Reporter.class

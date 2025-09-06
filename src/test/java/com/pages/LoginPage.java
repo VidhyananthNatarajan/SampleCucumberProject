@@ -7,7 +7,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 public class LoginPage extends BaseClass {
-	@Given ("Enter the username as (.*)")
+	//@Given ("Enter the username as (.*)")
 	public LoginPage enterusername(String username) {
 		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(username);
 		return this;
